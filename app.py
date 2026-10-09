@@ -8,7 +8,7 @@ bucket_name="student-photo-demo-gopu"
 
 db=pymysql.connect(
 host="100.57.165.48",
-port="3306",
+port=int(3306),
 user="admin",
 password="Admin123",
 database="studentdb"
